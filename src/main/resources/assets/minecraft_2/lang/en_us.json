@@ -1,3 +1,9 @@
 {
-  "item.minecraft_2.ruby": "Ruby"
+  "item.minecraft_2.ruby": "Ruby",
+  "item.minecraft_2.sapphire": "Sapphire",
+
+  "block.minecraft_2.ruby_block": "Ruby Ore",
+  "block.minecraft_2.red_grass_block": "Red Grass",
+  "block.minecraft_2.red_spruce_log": "Red Spruce Log",
+  "block.minecraft_2.red_spruce_leaves": "Red Spruce Leaves"
 }

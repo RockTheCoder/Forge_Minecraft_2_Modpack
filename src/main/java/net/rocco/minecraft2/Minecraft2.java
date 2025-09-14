@@ -14,6 +14,7 @@ import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.rocco.minecraft2.block.ModBlocks;
 import net.rocco.minecraft2.item.ModItems;
 import org.slf4j.Logger;
 //coolguy
@@ -33,6 +34,7 @@ public class Minecraft2 {
         MinecraftForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
 
         // Register the item to a creative tab
@@ -52,6 +54,14 @@ public class Minecraft2 {
     {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.RUBY);
+            event.accept(ModItems.Sapphire);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
+            event.accept(ModBlocks.RUBY_BLOCK);
+            event.accept(ModBlocks.RED_GRASS_BLOCK);
+            event.accept(ModBlocks.RED_SPRUCE_LOG);
+            event.accept(ModBlocks.RED_SPRUCE_LEAVES);
         }
     }
 

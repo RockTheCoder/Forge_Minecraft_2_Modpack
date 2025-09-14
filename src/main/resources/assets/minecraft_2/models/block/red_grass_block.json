@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "minecraft_2:block/red_grass_block",
+    "particle": "minecraft_2:block/bottom_of_red_grass_block",
+    "north": "minecraft_2:block/side_of_red_grass_block",
+    "south": "minecraft_2:block/side_of_red_grass_block",
+    "east": "minecraft_2:block/side_of_red_grass_block",
+    "west": "minecraft_2:block/side_of_red_grass_block",
+    "up": "minecraft_2:block/top_of_red_grass_block",
+    "down": "minecraft_2:block/bottom_of_red_grass_block"
+  }
+}
