@@ -15,6 +15,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.rocco.minecraft2.block.ModBlocks;
+import net.rocco.minecraft2.item.ModCreativeModeTabs;
 import net.rocco.minecraft2.item.ModItems;
 import org.slf4j.Logger;
 //coolguy
@@ -32,6 +33,8 @@ public class Minecraft2 {
         modEventBus.addListener(this::commonSetup);
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+
+        ModCreativeModeTabs.register((modEventBus));
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
@@ -62,6 +65,7 @@ public class Minecraft2 {
             event.accept(ModBlocks.RED_GRASS_BLOCK);
             event.accept(ModBlocks.RED_SPRUCE_LOG);
             event.accept(ModBlocks.RED_SPRUCE_LEAVES);
+            event.accept(ModBlocks.SAPPHIRE_BLOCK);
         }
     }
 
