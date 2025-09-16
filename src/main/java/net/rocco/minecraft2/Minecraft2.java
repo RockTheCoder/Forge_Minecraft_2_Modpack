@@ -58,6 +58,7 @@ public class Minecraft2 {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.RUBY);
             event.accept(ModItems.Sapphire);
+            event.accept(ModItems.ROSE_QUARTZ);
         }
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
@@ -66,6 +67,7 @@ public class Minecraft2 {
             event.accept(ModBlocks.RED_SPRUCE_LOG);
             event.accept(ModBlocks.RED_SPRUCE_LEAVES);
             event.accept(ModBlocks.SAPPHIRE_BLOCK);
+            event.accept(ModBlocks.ROSE_QUARTZ_BLOCK);
         }
     }
 

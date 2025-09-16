@@ -22,6 +22,7 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.RUBY.get());
                         output.accept(ModItems.Sapphire.get());
+                        output.accept(ModItems.ROSE_QUARTZ.get());
                     })
 
                     .build());
@@ -36,6 +37,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.RED_SPRUCE_LEAVES.get());
                         output.accept(ModBlocks.RED_GRASS_BLOCK.get());
                         output.accept(ModBlocks.SAPPHIRE_BLOCK.get());
+                        output.accept(ModBlocks.ROSE_QUARTZ_BLOCK.get());
                     })
 
                     .build());
