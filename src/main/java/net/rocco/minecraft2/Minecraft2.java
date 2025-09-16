@@ -18,7 +18,7 @@ import net.rocco.minecraft2.block.ModBlocks;
 import net.rocco.minecraft2.item.ModCreativeModeTabs;
 import net.rocco.minecraft2.item.ModItems;
 import org.slf4j.Logger;
-//coolguy
+
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(Minecraft2.MOD_ID)
 public class Minecraft2 {
@@ -62,12 +62,13 @@ public class Minecraft2 {
         }
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
-            event.accept(ModBlocks.RUBY_BLOCK);
+            event.accept(ModBlocks.RUBY_ORE);
             event.accept(ModBlocks.RED_GRASS_BLOCK);
             event.accept(ModBlocks.RED_SPRUCE_LOG);
             event.accept(ModBlocks.RED_SPRUCE_LEAVES);
             event.accept(ModBlocks.SAPPHIRE_BLOCK);
             event.accept(ModBlocks.ROSE_QUARTZ_BLOCK);
+            event.accept(ModBlocks.RUBY_BLOCK);
         }
     }
 

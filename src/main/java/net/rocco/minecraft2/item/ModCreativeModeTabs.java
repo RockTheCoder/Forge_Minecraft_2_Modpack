@@ -28,16 +28,17 @@ public class ModCreativeModeTabs {
                     .build());
 
     public static final RegistryObject<CreativeModeTab> NEW_BLOCKS_TAB = CREATIVE_MODE_TABS.register("new_blocks_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.RUBY_BLOCK.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.RUBY_ORE.get()))
                     .withTabsBefore(NEW_ITEMS_TAB.getId())
                     .title(Component.translatable("creativetab.minecraft_2.new_blocks"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModBlocks.RUBY_BLOCK.get());
+                        output.accept(ModBlocks.RUBY_ORE.get());
                         output.accept(ModBlocks.RED_SPRUCE_LOG.get());
                         output.accept(ModBlocks.RED_SPRUCE_LEAVES.get());
                         output.accept(ModBlocks.RED_GRASS_BLOCK.get());
                         output.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                         output.accept(ModBlocks.ROSE_QUARTZ_BLOCK.get());
+                        output.accept(ModBlocks.RUBY_BLOCK.get());
                     })
 
                     .build());
