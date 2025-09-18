@@ -66,8 +66,8 @@ public class Minecraft2 {
             event.accept(ModBlocks.RED_GRASS_BLOCK);
             event.accept(ModBlocks.RED_SPRUCE_LOG);
             event.accept(ModBlocks.RED_SPRUCE_LEAVES);
-            event.accept(ModBlocks.SAPPHIRE_BLOCK);
-            event.accept(ModBlocks.ROSE_QUARTZ_BLOCK);
+            event.accept(ModBlocks.SAPPHIRE_ORE);
+            event.accept(ModBlocks.ROSE_QUARTZ_ORE);
             event.accept(ModBlocks.RUBY_BLOCK);
         }
     }

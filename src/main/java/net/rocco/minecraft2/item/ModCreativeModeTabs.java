@@ -36,8 +36,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.RED_SPRUCE_LOG.get());
                         output.accept(ModBlocks.RED_SPRUCE_LEAVES.get());
                         output.accept(ModBlocks.RED_GRASS_BLOCK.get());
-                        output.accept(ModBlocks.SAPPHIRE_BLOCK.get());
-                        output.accept(ModBlocks.ROSE_QUARTZ_BLOCK.get());
+                        output.accept(ModBlocks.SAPPHIRE_ORE.get());
+                        output.accept(ModBlocks.ROSE_QUARTZ_ORE.get());
                         output.accept(ModBlocks.RUBY_BLOCK.get());
                     })
 

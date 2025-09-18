@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "minecraft_2:ruby_ore"
+    "minecraft_2:ruby_ore",
+    "minecraft_2:sapphire_ore",
+    "minecraft_2:rose_quartz_ore"
   ]
 }
