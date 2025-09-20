@@ -70,6 +70,7 @@ public class Minecraft2 {
             event.accept(ModBlocks.ROSE_QUARTZ_ORE);
             event.accept(ModBlocks.RUBY_BLOCK);
             event.accept(ModBlocks.SAPPHIRE_BLOCK);
+            event.accept(ModBlocks.ROSE_QUARTZ_BLOCK);
         }
     }
 
