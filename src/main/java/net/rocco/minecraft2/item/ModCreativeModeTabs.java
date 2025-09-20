@@ -23,6 +23,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RUBY.get());
                         output.accept(ModItems.Sapphire.get());
                         output.accept(ModItems.ROSE_QUARTZ.get());
+                        output.accept(ModItems.CHISEL.get());
                     })
 
                     .build());
@@ -41,6 +42,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.RUBY_BLOCK.get());
                         output.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                         output.accept(ModBlocks.ROSE_QUARTZ_BLOCK.get());
+                        output.accept(ModBlocks.MAGIC_BLOCK.get());
                     })
 
                     .build());

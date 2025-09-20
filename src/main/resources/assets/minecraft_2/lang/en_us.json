@@ -2,6 +2,7 @@
   "item.minecraft_2.ruby": "Ruby",
   "item.minecraft_2.sapphire": "Sapphire",
   "item.minecraft_2.rose_quartz": "Rose Quartz",
+  "item.minecraft_2.chisel": "Chisel",
 
   "block.minecraft_2.ruby_ore": "Ruby Ore",
   "block.minecraft_2.red_grass_block": "Red Grass",
@@ -12,6 +13,7 @@
   "block.minecraft_2.ruby_block": "Ruby Block",
   "block.minecraft_2.sapphire_block": "Sapphire Block",
   "block.minecraft_2.rose_quartz_block": "Block of Rose Quartz",
+  "block.minecraft_2.magic_block": "Magic Block",
 
 
   "creativetab.minecraft_2.new_blocks": "New Blocks",
