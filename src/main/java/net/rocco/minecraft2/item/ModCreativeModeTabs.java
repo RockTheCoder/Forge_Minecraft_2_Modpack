@@ -24,6 +24,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.Sapphire.get());
                         output.accept(ModItems.ROSE_QUARTZ.get());
                         output.accept(ModItems.CHISEL.get());
+                        output.accept(ModItems.RED_ONION.get());
+                        output.accept(ModItems.OIL.get());
                     })
 
                     .build());

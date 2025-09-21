@@ -16,6 +16,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.rocco.minecraft2.block.ModBlocks;
 import net.rocco.minecraft2.item.ModCreativeModeTabs;
+import net.rocco.minecraft2.item.ModFoodProperties;
 import net.rocco.minecraft2.item.ModItems;
 import org.slf4j.Logger;
 
@@ -60,6 +61,8 @@ public class Minecraft2 {
             event.accept(ModItems.Sapphire);
             event.accept(ModItems.ROSE_QUARTZ);
             event.accept(ModItems.CHISEL);
+            event.accept(ModItems.RED_ONION);
+            event.accept(ModItems.OIL);
         }
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){

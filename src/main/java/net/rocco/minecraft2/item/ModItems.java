@@ -7,6 +7,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.rocco.minecraft2.Minecraft2;
 import net.rocco.minecraft2.item.custom.ChiselItem;
+import net.rocco.minecraft2.item.custom.FuelItem;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -22,6 +23,10 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> CHISEL = ITEMS.register("chisel",
             () -> new ChiselItem(new Item.Properties().durability(32)));
+    public static final RegistryObject<Item> RED_ONION = ITEMS.register("red_onion",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.RED_ONION)));
+    public static final RegistryObject<Item> OIL = ITEMS.register("oil",
+            () -> new FuelItem(new Item.Properties(), 22000));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
