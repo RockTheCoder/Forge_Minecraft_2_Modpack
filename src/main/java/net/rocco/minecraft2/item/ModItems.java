@@ -1,6 +1,7 @@
 package net.rocco.minecraft2.item;
 
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -26,7 +27,7 @@ public class ModItems {
     public static final RegistryObject<Item> RED_ONION = ITEMS.register("red_onion",
             () -> new Item(new Item.Properties().food(ModFoodProperties.RED_ONION)));
     public static final RegistryObject<Item> OIL = ITEMS.register("oil",
-            () -> new FuelItem(new Item.Properties(), 22000));
+            () -> new FuelItem(new Item.Properties().craftRemainder(Items.BUCKET), 22000));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
