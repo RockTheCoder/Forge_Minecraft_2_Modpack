@@ -27,7 +27,7 @@ public class Minecraft2 {
     public static final String MOD_ID = "minecraft_2";
     // Directly reference a slf4j logger
     public static final Logger LOGGER = LogUtils.getLogger();
-
+//Cool
 
     public Minecraft2() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
