@@ -3,10 +3,10 @@
   "category": "misc",
   "key": {
     "A": {
-      "item": "minecraft:flint"
+      "item": "minecraft:blaze_powder"
     },
     "B": {
-      "item": "minecraft:lava_bucket"
+      "item": "minecraft:bucket"
     },
     "C": {
       "item": "minecraft:charcoal"

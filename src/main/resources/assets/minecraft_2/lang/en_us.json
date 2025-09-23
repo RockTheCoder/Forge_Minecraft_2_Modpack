@@ -19,5 +19,10 @@
 
 
   "creativetab.minecraft_2.new_blocks": "New Blocks",
-  "creativetab.minecraft_2.new_items": "New Items"
+  "creativetab.minecraft_2.new_items": "New Items",
+
+  "tooltip.minecraft_2.magic_block.tooltip": "This Block is quite MAGICAL",
+  "tooltip.minecraft_2.chisel_shift_down": "This item changes specific Blocks!",
+  "tooltip.minecraft_2.chisel": "Press Shift for more Information!",
+  "tooltip.minecraft_2.oil": "You are a True Capitalist!"
 }

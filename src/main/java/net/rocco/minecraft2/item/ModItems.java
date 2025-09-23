@@ -27,7 +27,7 @@ public class ModItems {
     public static final RegistryObject<Item> RED_ONION = ITEMS.register("red_onion",
             () -> new Item(new Item.Properties().food(ModFoodProperties.RED_ONION)));
     public static final RegistryObject<Item> OIL = ITEMS.register("oil",
-            () -> new FuelItem(new Item.Properties().craftRemainder(Items.BUCKET), 22000));
+            () -> new FuelItem(new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(16), 22000));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
