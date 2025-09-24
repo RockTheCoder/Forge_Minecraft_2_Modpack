@@ -18,6 +18,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.BlockHitResult;
 import net.rocco.minecraft2.item.ModItems;
+import net.rocco.minecraft2.item.util.ModTags;
 
 import java.util.List;
 
@@ -37,7 +38,7 @@ public class MagicBlock extends Block {
     @Override
     public void stepOn(Level pLevel, BlockPos pPos, BlockState pState, Entity pEntity) {
         if(pEntity instanceof ItemEntity itemEntity){
-            if(itemEntity.getItem().getItem() == Items.EMERALD){
+            if(isValidItem(itemEntity.getItem())){
                 itemEntity.setItem(new ItemStack(ModItems.Sapphire.get(), itemEntity.getItem().getCount()));
             }
             if(itemEntity.getItem().getItem() == ModItems.RUBY.get()){
@@ -55,6 +56,10 @@ public class MagicBlock extends Block {
         }
 
         super.stepOn(pLevel, pPos, pState, pEntity);
+    }
+
+    private boolean isValidItem(ItemStack item) {
+        return item.is(ModTags.Items.TRANSFORMATIVE_ITEMS);
     }
 
     @Override
