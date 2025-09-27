@@ -2,7 +2,6 @@ package net.rocco.minecraft2.block.custom;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
-import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.InteractionResult;
@@ -18,7 +17,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.BlockHitResult;
 import net.rocco.minecraft2.item.ModItems;
-import net.rocco.minecraft2.item.util.ModTags;
+import net.rocco.minecraft2.util.ModTags;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package net.rocco.minecraft2.item.util;
+package net.rocco.minecraft2.util;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;

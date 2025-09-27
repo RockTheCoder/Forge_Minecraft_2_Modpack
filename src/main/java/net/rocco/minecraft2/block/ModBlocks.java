@@ -27,15 +27,15 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> RED_GRASS_BLOCK = registerBlock("red_grass_block",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(2f).sound(SoundType.GRASS)));
+                    .strength(2f).sound(SoundType.GRASS).noLootTable()));
 
     public static final RegistryObject<Block> RED_SPRUCE_LOG = registerBlock("red_spruce_log",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f).sound(SoundType.WOOD)));
+                    .strength(4f).sound(SoundType.WOOD).noLootTable()));
 
     public static final RegistryObject<Block> RED_SPRUCE_LEAVES = registerBlock("red_spruce_leaves",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(1f).requiresCorrectToolForDrops().sound(SoundType.CHERRY_LEAVES).noOcclusion()));
+                    .strength(1f).requiresCorrectToolForDrops().sound(SoundType.CHERRY_LEAVES).noOcclusion().noLootTable()));
 
     public static final RegistryObject<Block> SAPPHIRE_ORE = registerBlock("sapphire_ore",
             () -> new DropExperienceBlock(UniformInt.of(4,8), BlockBehaviour.Properties.of()
@@ -43,20 +43,20 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> ROSE_QUARTZ_ORE = registerBlock("rose_quartz_ore",
             () -> new DropExperienceBlock(UniformInt.of(4,6), BlockBehaviour.Properties.of()
-                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.NETHERRACK)));
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.NETHERRACK).noLootTable()));
 
     public static final RegistryObject<Block> RUBY_BLOCK = registerBlock("ruby_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
     public static final RegistryObject<Block> SAPPHIRE_BLOCK = registerBlock("sapphire_block",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST).noLootTable()));
     public static final RegistryObject<Block> ROSE_QUARTZ_BLOCK = registerBlock("rose_quartz_block",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST_CLUSTER)));
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST_CLUSTER).noLootTable()));
     public static final RegistryObject<Block> MAGIC_BLOCK = registerBlock("magic_block",
             () -> new MagicBlock(BlockBehaviour.Properties.of()
-                    .strength(2f).requiresCorrectToolForDrops()));
+                    .strength(2f).requiresCorrectToolForDrops().noLootTable()));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
