@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "red_spruce_planks",
+  "key": {
+    "#": {
+      "item": "minecraft_2:red_spruce_plank"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "minecraft_2:red_spruce_stairs"
+  }
+}
