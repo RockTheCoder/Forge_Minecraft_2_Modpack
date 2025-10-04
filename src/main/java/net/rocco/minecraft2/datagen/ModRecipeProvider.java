@@ -4,6 +4,7 @@ import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 import net.rocco.minecraft2.block.ModBlocks;
 import net.rocco.minecraft2.item.ModItems;
@@ -45,6 +46,12 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('B',Items.BLAZE_POWDER)
                 .define('C',Items.BUCKET)
                 .unlockedBy(getHasName(Items.BLAZE_POWDER), has(Items.BLAZE_POWDER)).save(pRecipeOutput);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.RED_SPRUCE_PLANK.get(), 4)
+                .requires(ModBlocks.RED_SPRUCE_LOG.get())
+                .unlockedBy(getHasName(ModBlocks.RED_SPRUCE_LOG.get()), has(ModBlocks.RED_SPRUCE_LOG.get())).save(pRecipeOutput);
+        stairBuilder(ModBlocks.RED_SPRUCE_STAIRS.get(), Ingredient.of(ModBlocks.RED_SPRUCE_PLANK.get())).group("red_spruce_planks")
+                .unlockedBy(getHasName(ModBlocks.RED_SPRUCE_LEAVES.get()), has(ModBlocks.RED_SPRUCE_STAIRS.get())).save(pRecipeOutput);
+
 
     }
 }

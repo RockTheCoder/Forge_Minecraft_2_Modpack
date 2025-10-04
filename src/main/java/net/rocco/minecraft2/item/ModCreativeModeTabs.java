@@ -45,6 +45,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                         output.accept(ModBlocks.ROSE_QUARTZ_BLOCK.get());
                         output.accept(ModBlocks.MAGIC_BLOCK.get());
+                        output.accept(ModBlocks.RED_SPRUCE_PLANK.get());
+                        output.accept(ModBlocks.RED_SPRUCE_STAIRS.get());
                     })
 
                     .build());

@@ -7,6 +7,7 @@
   "item.minecraft_2.oil": "Bucket of Oil",
 
   "block.minecraft_2.ruby_ore": "Ruby Ore",
+  "block.minecraft_2.red_spruce_stairs": "Red Spruce Stairs",
   "block.minecraft_2.red_grass_block": "Red Grass",
   "block.minecraft_2.red_spruce_log": "Red Spruce Log",
   "block.minecraft_2.red_spruce_leaves": "Red Spruce Leaves",
@@ -16,6 +17,7 @@
   "block.minecraft_2.sapphire_block": "Sapphire Block",
   "block.minecraft_2.rose_quartz_block": "Block of Rose Quartz",
   "block.minecraft_2.magic_block": "Magic Block",
+  "block.minecraft_2.red_spruce_plank": "Red Spruce Plank",
 
 
   "creativetab.minecraft_2.new_blocks": "New Blocks",

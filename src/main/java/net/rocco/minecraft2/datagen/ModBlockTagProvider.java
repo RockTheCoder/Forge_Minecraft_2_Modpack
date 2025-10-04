@@ -35,5 +35,6 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.RUBY_ORE.get());
 
 
+
     }
 }
