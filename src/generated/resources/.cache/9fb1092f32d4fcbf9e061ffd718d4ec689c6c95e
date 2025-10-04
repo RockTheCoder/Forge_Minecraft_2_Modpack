@@ -1,7 +1,11 @@
-// 1.21	2025-09-27T13:33:44.5496127	Recipes
+// 1.21	2025-10-02T09:56:51.4485119	Recipes
 e0387ef3f3960297a0a6dbdb89e62b995455f4a6 data/minecraft_2/advancement/recipes/misc/oil.json
 c11efc2168192924b02978467575a07ca31c20ae data/minecraft_2/advancement/recipes/misc/ruby.json
 a30ed93d5e3c7c20a719443d9eff61f7c8da2b80 data/minecraft_2/advancement/recipes/misc/ruby_block.json
+cd89b1d1b9f276e3d4c4de03c001dfd25a2ddf4b data/minecraft_2/advancement/recipes/misc/sapphire.json
+c1a7a68be2f0c2b956348d791ede012603893d43 data/minecraft_2/advancement/recipes/misc/sapphire_block.json
 d1d8a6df08447a5876101c508e8d3c45c7eaae63 data/minecraft_2/recipe/oil.json
 405d81af5c15eb8ba5220a6e260312a9975dbfd2 data/minecraft_2/recipe/ruby.json
 054404946473351c02491b7382523752e1009835 data/minecraft_2/recipe/ruby_block.json
+49b36b1757707a1561908de36679e5893985cee8 data/minecraft_2/recipe/sapphire.json
+cd3f24ed45c2d8bea91e0c30cc92ded616477306 data/minecraft_2/recipe/sapphire_block.json
