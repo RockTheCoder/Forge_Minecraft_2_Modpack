@@ -18,7 +18,8 @@
   "block.minecraft_2.rose_quartz_block": "Block of Rose Quartz",
   "block.minecraft_2.magic_block": "Magic Block",
   "block.minecraft_2.red_spruce_plank": "Red Spruce Plank",
-
+  "block.minecraft_2.red_spruce_slab": "Red Spruce Slab",
+  "block.minecraft_2.red_spruce_door": "Red Spruce Door",
 
   "creativetab.minecraft_2.new_blocks": "New Blocks",
   "creativetab.minecraft_2.new_items": "New Items",

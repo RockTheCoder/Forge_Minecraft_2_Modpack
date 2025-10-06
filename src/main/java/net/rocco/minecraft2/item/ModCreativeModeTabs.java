@@ -47,6 +47,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.MAGIC_BLOCK.get());
                         output.accept(ModBlocks.RED_SPRUCE_PLANK.get());
                         output.accept(ModBlocks.RED_SPRUCE_STAIRS.get());
+                        output.accept(ModBlocks.RED_SPRUCE_SLAB.get());
+                        output.accept(ModBlocks.RED_SPRUCE_DOOR.get());
                     })
 
                     .build());

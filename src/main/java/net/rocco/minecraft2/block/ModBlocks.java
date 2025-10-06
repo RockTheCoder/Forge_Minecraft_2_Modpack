@@ -3,11 +3,9 @@ package net.rocco.minecraft2.block;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.DropExperienceBlock;
-import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.block.StairBlock;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -61,9 +59,13 @@ public class ModBlocks {
     public static final RegistryObject<Block> RED_SPRUCE_PLANK = registerBlock("red_spruce_plank",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(2f).sound(SoundType.WOOD)));
-    public static final RegistryObject<Block> RED_SPRUCE_STAIRS = registerBlock("red_spruce_stairs",
+    public static final RegistryObject<StairBlock> RED_SPRUCE_STAIRS = registerBlock("red_spruce_stairs",
             () -> new StairBlock(ModBlocks.RED_SPRUCE_PLANK.get().defaultBlockState(),
                     BlockBehaviour.Properties.of().strength(2f).sound(SoundType.WOOD)));
+    public static final RegistryObject<SlabBlock> RED_SPRUCE_SLAB = registerBlock("red_spruce_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<DoorBlock> RED_SPRUCE_DOOR = registerBlock("red_spruce_door",
+            () -> new DoorBlock(BlockSetType.OAK,BlockBehaviour.Properties.of().sound(SoundType.WOOD).strength(2f).noOcclusion()));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

@@ -77,6 +77,8 @@ public class Minecraft2 {
             event.accept(ModBlocks.ROSE_QUARTZ_BLOCK);
             event.accept(ModBlocks.MAGIC_BLOCK);
             event.accept(ModBlocks.RED_SPRUCE_PLANK);
+            event.accept(ModBlocks.RED_SPRUCE_SLAB);
+            event.accept(ModBlocks.RED_SPRUCE_DOOR);
         }
     }
 

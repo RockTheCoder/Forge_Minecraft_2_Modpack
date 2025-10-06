@@ -38,12 +38,16 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.ROSE_QUARTZ_BLOCK.get());
         dropSelf(ModBlocks.RED_SPRUCE_PLANK.get());
         dropSelf(ModBlocks.RED_SPRUCE_STAIRS.get());
+        this.add(ModBlocks.RED_SPRUCE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.RED_SPRUCE_SLAB.get()));
         this.add(ModBlocks.RUBY_ORE.get(),
                 block -> createOreDrop(ModBlocks.RUBY_ORE.get(), ModItems.RUBY.get()));
         this.add(ModBlocks.SAPPHIRE_ORE.get(),
                 block -> createMultipleOreDrops(ModBlocks.SAPPHIRE_ORE.get(), ModItems.Sapphire.get(), 2,6));
         this.add(ModBlocks.ROSE_QUARTZ_ORE.get(),
                 block -> createMultipleOreDrops(ModBlocks.ROSE_QUARTZ_ORE.get(), ModItems.ROSE_QUARTZ.get(), 2,6));
+        this.add(ModBlocks.RED_SPRUCE_DOOR.get(),
+                block -> createDoorTable(ModBlocks.RED_SPRUCE_DOOR.get()));
     }
 
     protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {

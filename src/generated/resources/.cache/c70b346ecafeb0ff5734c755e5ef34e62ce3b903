@@ -1,6 +1,7 @@
-// 1.21	2025-10-04T14:41:17.0297618	Block States: minecraft_2
+// 1.21	2025-10-06T09:26:11.2840616	Block States: minecraft_2
 c67ef1f668af7cd4331897f770cee0ef5b8c1c6a assets/minecraft_2/blockstates/magic_block.json
 2bbbe7360757260b963b2ab03b459bf3eec5d69f assets/minecraft_2/blockstates/red_spruce_plank.json
+7242727e29b1343d12ff135e7eba5cbc90dadafb assets/minecraft_2/blockstates/red_spruce_slab.json
 ef655c290db17d589451b4e27eebab2824df9611 assets/minecraft_2/blockstates/red_spruce_stairs.json
 718f63e24cb1fb88673b9648408b0e5b65079c5d assets/minecraft_2/blockstates/rose_quartz_block.json
 4f1a2625869c844003dcfd5ea0f1f4c0378aa7ec assets/minecraft_2/blockstates/rose_quartz_ore.json
@@ -10,6 +11,8 @@ f7accbace6445fe81574107c1a14459556a9ad18 assets/minecraft_2/blockstates/ruby_ore
 e1d796055c12fcb4d834a379f50736875602addc assets/minecraft_2/blockstates/sapphire_ore.json
 555193f72948913619cf6119ef7bc9b82db0520a assets/minecraft_2/models/block/magic_block.json
 5236a81e32a6bfb495ef3de2d3613a96b05e380f assets/minecraft_2/models/block/red_spruce_plank.json
+312374d1414d1a7e75cfc38ee7803a2c62e21ca8 assets/minecraft_2/models/block/red_spruce_slab.json
+4760057d37050dc8312e9a3a9b2989eef50bc59f assets/minecraft_2/models/block/red_spruce_slab_top.json
 5304c4df2fc90a0b00c4c2dc7b1da02efc550c39 assets/minecraft_2/models/block/red_spruce_stairs.json
 e021582c6e7f14f7113e268d73afbceace996287 assets/minecraft_2/models/block/red_spruce_stairs_inner.json
 3f82a3870789c2536e4eacde23c9bd8a8979eef3 assets/minecraft_2/models/block/red_spruce_stairs_outer.json
@@ -21,6 +24,7 @@ bcd394d59fc0cf9d6de6450bb0820a29ec8332a1 assets/minecraft_2/models/block/sapphir
 02a8c2f399e8b58d4816915ee06b24e6714b037d assets/minecraft_2/models/block/sapphire_ore.json
 73f5f5ce93c9870d0df08d3d578cc80c5ba04d8b assets/minecraft_2/models/item/magic_block.json
 9017617363b040399371a943e55a3bf49549ab02 assets/minecraft_2/models/item/red_spruce_plank.json
+7426e8b45ef0790e6e942bae0d5b7b7789bc97cd assets/minecraft_2/models/item/red_spruce_slab.json
 829d04da2240bf2ad2fdfd66edd76265d10477a2 assets/minecraft_2/models/item/red_spruce_stairs.json
 d1ee9448339b8764e49069050a5245e237a72ebf assets/minecraft_2/models/item/rose_quartz_block.json
 1b8ca09f3f68f4d884b7cb0b6c88358bfd97f20f assets/minecraft_2/models/item/rose_quartz_ore.json

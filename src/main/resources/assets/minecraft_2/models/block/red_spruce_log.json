@@ -1,7 +1,12 @@
 {
-  "parent": "minecraft:block/cube_column",
+  "parent": "minecraft:block/cube_all",
   "textures": {
-    "end": "minecraft_2:block/top_of_red_spruce_log",
-    "side": "minecraft_2:block/red_spruce_log"
+    "particle": "minecraft_2:block/top_of_red_spruce_log",
+    "up": "minecraft_2:block/top_of_red_spruce_log",
+    "down": "minecraft_2:block/top_of_red_spruce_log",
+    "north": "minecraft_2:block/red_spruce_log",
+    "west": "minecraft_2:block/red_spruce_log",
+    "south": "minecraft_2:block/red_spruce_log",
+    "east": "minecraft_2:block/red_spruce_log"
   }
 }
