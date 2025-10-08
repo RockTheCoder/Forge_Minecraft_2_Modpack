@@ -1,4 +1,4 @@
-// 1.21	2025-10-06T09:26:11.2787597	Recipes
+// 1.21	2025-10-08T09:11:22.8400761	Recipes
 c9043a6c71771a0aae7e68b46a1b99bff0f32edd data/minecraft_2/advancement/recipes/building_blocks/red_spruce_slab.json
 f8ffe5e3824ad97f4beb3b07d356bd2f96cbb821 data/minecraft_2/advancement/recipes/building_blocks/red_spruce_stairs.json
 e0387ef3f3960297a0a6dbdb89e62b995455f4a6 data/minecraft_2/advancement/recipes/misc/oil.json
@@ -7,7 +7,9 @@ c11efc2168192924b02978467575a07ca31c20ae data/minecraft_2/advancement/recipes/mi
 a30ed93d5e3c7c20a719443d9eff61f7c8da2b80 data/minecraft_2/advancement/recipes/misc/ruby_block.json
 cd89b1d1b9f276e3d4c4de03c001dfd25a2ddf4b data/minecraft_2/advancement/recipes/misc/sapphire.json
 c1a7a68be2f0c2b956348d791ede012603893d43 data/minecraft_2/advancement/recipes/misc/sapphire_block.json
+9a417b2872031b8080411cd609ea817026839b40 data/minecraft_2/advancement/recipes/redstone/red_spruce_door.json
 d1d8a6df08447a5876101c508e8d3c45c7eaae63 data/minecraft_2/recipe/oil.json
+1073ee49166bccadbe15cfa04ccb7eb50898a682 data/minecraft_2/recipe/red_spruce_door.json
 e851121876984e79264c60e329e1d8a3ec6e6bc3 data/minecraft_2/recipe/red_spruce_plank.json
 18634b3aab6d8db46b3d71a2635a7572bed91bd5 data/minecraft_2/recipe/red_spruce_slab.json
 3d7b0267700e41ea7b8539f665bfde193f560959 data/minecraft_2/recipe/red_spruce_stairs.json

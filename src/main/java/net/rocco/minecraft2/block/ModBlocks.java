@@ -67,6 +67,9 @@ public class ModBlocks {
     public static final RegistryObject<DoorBlock> RED_SPRUCE_DOOR = registerBlock("red_spruce_door",
             () -> new DoorBlock(BlockSetType.OAK,BlockBehaviour.Properties.of().sound(SoundType.WOOD).strength(2f).noOcclusion()));
 
+    public static final RegistryObject<ButtonBlock> RED_SPRUCE_BUTTON = registerBlock("red_spruce_button",
+            () -> new ButtonBlock(BlockSetType.SPRUCE, 1,BlockBehaviour.Properties.of().strength(2f).sound(SoundType.WOOD).noCollission()));
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

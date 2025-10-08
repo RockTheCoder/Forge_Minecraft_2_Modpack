@@ -28,7 +28,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.ROSE_QUARTZ_ORE);
         blockWithItem(ModBlocks.RED_SPRUCE_PLANK);
 
-        //doorBlockWithRenderType(ModBlocks.RED_SPRUCE_DOOR.get(), modLoc("block/red_spruce_door_bottom"), modLoc("block/red_spruce_door_top"), "cutout");
+
+        buttonBlock(ModBlocks.RED_SPRUCE_BUTTON.get(), blockTexture(ModBlocks.RED_SPRUCE_PLANK.get()));
+        doorBlockWithRenderType(ModBlocks.RED_SPRUCE_DOOR.get(), modLoc("block/red_spruce_door_bottom"), modLoc("block/red_spruce_door_top"), "cutout");
         slabBlock(ModBlocks.RED_SPRUCE_SLAB.get(), blockTexture(ModBlocks.RED_SPRUCE_PLANK.get()), blockTexture(ModBlocks.RED_SPRUCE_PLANK.get()));
         stairsBlock((StairBlock) ModBlocks.RED_SPRUCE_STAIRS.get(), blockTexture(ModBlocks.RED_SPRUCE_PLANK.get()));
         blockItem(ModBlocks.RED_SPRUCE_STAIRS);
