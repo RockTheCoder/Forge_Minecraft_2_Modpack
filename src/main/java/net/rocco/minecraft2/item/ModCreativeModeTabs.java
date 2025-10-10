@@ -50,6 +50,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.RED_SPRUCE_SLAB.get());
                         output.accept(ModBlocks.RED_SPRUCE_DOOR.get());
                         output.accept(ModBlocks.RED_SPRUCE_BUTTON.get());
+                        output.accept(ModBlocks.RED_SPRUCE_FENCE.get());
                     })
 
                     .build());

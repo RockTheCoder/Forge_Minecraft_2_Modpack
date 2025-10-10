@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "red_spruce_plank",
+  "ingredients": [
+    {
+      "item": "minecraft_2:red_spruce_plank"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft_2:red_spruce_button"
+  }
+}

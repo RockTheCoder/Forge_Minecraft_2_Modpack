@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_inventory",
+  "textures": {
+    "texture": "minecraft_2:block/red_spruce_plank"
+  }
+}

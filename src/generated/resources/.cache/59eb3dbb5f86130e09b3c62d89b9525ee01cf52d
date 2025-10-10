@@ -1,6 +1,8 @@
-// 1.21	2025-10-08T09:11:22.8304314	Loot Tables
+// 1.21	2025-10-10T10:04:09.3385366	Loot Tables
 9ecf8e187d72d953f42bd33773224947c88bb0c9 data/minecraft_2/loot_table/blocks/red_grass_block.json
+bb4cc4198d137105ccb6e9568fdc679ecb6e9d1c data/minecraft_2/loot_table/blocks/red_spruce_button.json
 813359277535a95eb25cdd05f35e224a59db7ea8 data/minecraft_2/loot_table/blocks/red_spruce_door.json
+5b424a39e5831d2094fd56a57c8e29e2f9526f34 data/minecraft_2/loot_table/blocks/red_spruce_fence.json
 a52b4068dd052489823b274a699719e67ba75fe4 data/minecraft_2/loot_table/blocks/red_spruce_leaves.json
 872f15f3e671e5bfc87fe9db79c642984f87fd10 data/minecraft_2/loot_table/blocks/red_spruce_log.json
 055ff3c60d78fe86b610c41c4c570b243d3a87e8 data/minecraft_2/loot_table/blocks/red_spruce_plank.json

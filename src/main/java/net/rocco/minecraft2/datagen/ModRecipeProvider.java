@@ -55,5 +55,9 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         doorBuilder(ModBlocks.RED_SPRUCE_DOOR.get(), Ingredient.of(ModBlocks.RED_SPRUCE_PLANK.get())).group("red_spruce_plank")
                 .unlockedBy(getHasName(ModBlocks.RED_SPRUCE_PLANK.get()), has(ModBlocks.RED_SPRUCE_PLANK.get())).save(pRecipeOutput);
 
+        buttonBuilder(ModBlocks.RED_SPRUCE_BUTTON.get(), Ingredient.of(ModBlocks.RED_SPRUCE_PLANK.get())).group("red_spruce_plank")
+                .unlockedBy(getHasName(ModBlocks.RED_SPRUCE_PLANK.get()), has(ModBlocks.RED_SPRUCE_PLANK.get())).save(pRecipeOutput);
+        fenceBuilder(ModBlocks.RED_SPRUCE_FENCE.get(), Ingredient.of(ModBlocks.RED_SPRUCE_PLANK.get())).group("red_spruce_plank")
+                .unlockedBy(getHasName(ModBlocks.RED_SPRUCE_PLANK.get()), has(ModBlocks.RED_SPRUCE_PLANK.get())).save(pRecipeOutput);
     }
 }

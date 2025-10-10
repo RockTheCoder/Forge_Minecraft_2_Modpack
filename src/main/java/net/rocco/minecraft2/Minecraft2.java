@@ -80,6 +80,7 @@ public class Minecraft2 {
             event.accept(ModBlocks.RED_SPRUCE_SLAB);
             event.accept(ModBlocks.RED_SPRUCE_DOOR);
             event.accept(ModBlocks.RED_SPRUCE_BUTTON);
+            event.accept(ModBlocks.RED_SPRUCE_FENCE);
         }
     }
 

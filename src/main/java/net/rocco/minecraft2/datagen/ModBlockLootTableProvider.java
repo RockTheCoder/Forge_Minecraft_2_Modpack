@@ -37,6 +37,7 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.SAPPHIRE_BLOCK.get());
         dropSelf(ModBlocks.ROSE_QUARTZ_BLOCK.get());
         dropSelf(ModBlocks.RED_SPRUCE_PLANK.get());
+        dropSelf(ModBlocks.RED_SPRUCE_FENCE.get());
         dropSelf(ModBlocks.RED_SPRUCE_STAIRS.get());
         dropSelf(ModBlocks.RED_SPRUCE_BUTTON.get());
         this.add(ModBlocks.RED_SPRUCE_SLAB.get(),
