@@ -81,6 +81,10 @@ public class Minecraft2 {
             event.accept(ModBlocks.RED_SPRUCE_DOOR);
             event.accept(ModBlocks.RED_SPRUCE_BUTTON);
             event.accept(ModBlocks.RED_SPRUCE_FENCE);
+            event.accept(ModBlocks.RED_SPRUCE_FENCE_GATE.get());
+            event.accept(ModBlocks.RED_SPRUCE_TRAPDOOR.get());
+            event.accept(ModBlocks.RED_SPRUCE_PRESSURE_PLATE.get());
+            event.accept(ModBlocks.RUBY_LAMP.get());
         }
     }
 

@@ -49,7 +49,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.RED_SPRUCE_PLANK.get(), 4)
                 .requires(ModBlocks.RED_SPRUCE_LOG.get())
                 .unlockedBy(getHasName(ModBlocks.RED_SPRUCE_LOG.get()), has(ModBlocks.RED_SPRUCE_LOG.get())).save(pRecipeOutput);
-        stairBuilder(ModBlocks.RED_SPRUCE_STAIRS.get(), Ingredient.of(ModBlocks.RED_SPRUCE_PLANK.get())).group("red_spruce_planks")
+        stairBuilder(ModBlocks.RED_SPRUCE_STAIRS.get(), Ingredient.of(ModBlocks.RED_SPRUCE_PLANK.get())).group("red_spruce_plank")
                 .unlockedBy(getHasName(ModBlocks.RED_SPRUCE_LEAVES.get()), has(ModBlocks.RED_SPRUCE_STAIRS.get())).save(pRecipeOutput);
         slab(pRecipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.RED_SPRUCE_SLAB.get(), ModBlocks.RED_SPRUCE_PLANK.get());
         doorBuilder(ModBlocks.RED_SPRUCE_DOOR.get(), Ingredient.of(ModBlocks.RED_SPRUCE_PLANK.get())).group("red_spruce_plank")
@@ -59,5 +59,11 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModBlocks.RED_SPRUCE_PLANK.get()), has(ModBlocks.RED_SPRUCE_PLANK.get())).save(pRecipeOutput);
         fenceBuilder(ModBlocks.RED_SPRUCE_FENCE.get(), Ingredient.of(ModBlocks.RED_SPRUCE_PLANK.get())).group("red_spruce_plank")
                 .unlockedBy(getHasName(ModBlocks.RED_SPRUCE_PLANK.get()), has(ModBlocks.RED_SPRUCE_PLANK.get())).save(pRecipeOutput);
+        trapdoorBuilder(ModBlocks.RED_SPRUCE_TRAPDOOR.get(), Ingredient.of(ModBlocks.RED_SPRUCE_PLANK.get())).group("red_spruce_plank")
+                .unlockedBy(getHasName(ModBlocks.RED_SPRUCE_PLANK.get()), has(ModBlocks.RED_SPRUCE_PLANK.get())).save(pRecipeOutput);
+        fenceGateBuilder(ModBlocks.RED_SPRUCE_FENCE_GATE.get(), Ingredient.of(ModBlocks.RED_SPRUCE_PLANK.get())).group("red_spruce_plank")
+                .unlockedBy(getHasName(ModBlocks.RED_SPRUCE_PLANK.get()), has(ModBlocks.RED_SPRUCE_PLANK.get())).save(pRecipeOutput);
+        pressurePlate(pRecipeOutput, ModBlocks.RED_SPRUCE_PRESSURE_PLATE.get(), ModBlocks.RED_SPRUCE_PLANK.get());
+
     }
 }

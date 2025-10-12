@@ -6,12 +6,14 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.BlockSetType;
+import net.minecraft.world.level.block.state.properties.WoodType;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.rocco.minecraft2.Minecraft2;
 import net.rocco.minecraft2.block.custom.MagicBlock;
+import net.rocco.minecraft2.block.custom.RubyLampBlock;
 import net.rocco.minecraft2.item.ModItems;
 
 import java.util.function.Supplier;
@@ -65,13 +67,23 @@ public class ModBlocks {
     public static final RegistryObject<SlabBlock> RED_SPRUCE_SLAB = registerBlock("red_spruce_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
     public static final RegistryObject<DoorBlock> RED_SPRUCE_DOOR = registerBlock("red_spruce_door",
-            () -> new DoorBlock(BlockSetType.OAK,BlockBehaviour.Properties.of().sound(SoundType.WOOD).strength(2f).noOcclusion()));
-
+            () -> new DoorBlock(BlockSetType.SPRUCE,BlockBehaviour.Properties.of().sound(SoundType.WOOD).strength(2f).noOcclusion()));
     public static final RegistryObject<ButtonBlock> RED_SPRUCE_BUTTON = registerBlock("red_spruce_button",
-            () -> new ButtonBlock(BlockSetType.SPRUCE, 1,BlockBehaviour.Properties.of().strength(2f).sound(SoundType.WOOD).noCollission()));
+            () -> new ButtonBlock(BlockSetType.SPRUCE, 15,BlockBehaviour.Properties.of().strength(2f).sound(SoundType.WOOD).noCollission()));
 
     public static final RegistryObject<FenceBlock> RED_SPRUCE_FENCE = registerBlock("red_spruce_fence",
             () -> new FenceBlock(BlockBehaviour.Properties.of().strength(3f).sound(SoundType.WOOD)));
+
+    public static final RegistryObject<PressurePlateBlock> RED_SPRUCE_PRESSURE_PLATE = registerBlock("red_spruce_pressure_plate",
+            () -> new PressurePlateBlock(BlockSetType.SPRUCE, BlockBehaviour.Properties.of().sound(SoundType.WOOD).strength(2f)));
+    public static final RegistryObject<FenceGateBlock> RED_SPRUCE_FENCE_GATE = registerBlock("red_spruce_fence_gate",
+            () -> new FenceGateBlock(WoodType.SPRUCE, BlockBehaviour.Properties.of().strength(3f).sound(SoundType.WOOD)));
+    public static final RegistryObject<TrapDoorBlock> RED_SPRUCE_TRAPDOOR = registerBlock("red_spruce_trapdoor",
+            () -> new TrapDoorBlock(BlockSetType.SPRUCE,BlockBehaviour.Properties.of().sound(SoundType.WOOD).strength(2f).noOcclusion()));
+    public static final RegistryObject<Block> RUBY_LAMP = registerBlock("ruby_lamp",
+            () -> new RubyLampBlock(BlockBehaviour.Properties.of().strength(3f)
+                    .lightLevel(state -> state.getValue(RubyLampBlock.CLICKED) ? 15 : 0)));
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

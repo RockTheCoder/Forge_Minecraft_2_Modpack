@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
-  "group": "red_spruce_planks",
+  "group": "red_spruce_plank",
   "key": {
     "#": {
       "item": "minecraft_2:red_spruce_plank"

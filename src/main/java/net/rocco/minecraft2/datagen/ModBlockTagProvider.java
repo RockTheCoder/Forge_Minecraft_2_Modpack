@@ -34,7 +34,7 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.RUBY_BLOCK.get())
                 .add(ModBlocks.RUBY_ORE.get());
 
-        tag(BlockTags.FENCES).add(ModBlocks.RED_SPRUCE_FENCE.get());
-
+        tag(BlockTags.WOODEN_FENCES).add(ModBlocks.RED_SPRUCE_FENCE.get());
+        tag(BlockTags.FENCE_GATES).add(ModBlocks.RED_SPRUCE_FENCE_GATE.get());
     }
 }

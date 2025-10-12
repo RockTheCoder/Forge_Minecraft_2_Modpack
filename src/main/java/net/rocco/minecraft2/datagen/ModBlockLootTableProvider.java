@@ -40,6 +40,11 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.RED_SPRUCE_FENCE.get());
         dropSelf(ModBlocks.RED_SPRUCE_STAIRS.get());
         dropSelf(ModBlocks.RED_SPRUCE_BUTTON.get());
+        dropSelf(ModBlocks.RED_SPRUCE_FENCE_GATE.get());
+        dropSelf(ModBlocks.RED_SPRUCE_PRESSURE_PLATE.get());
+        dropSelf(ModBlocks.RED_SPRUCE_TRAPDOOR.get());
+        dropSelf(ModBlocks.RUBY_LAMP.get());
+
         this.add(ModBlocks.RED_SPRUCE_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.RED_SPRUCE_SLAB.get()));
         this.add(ModBlocks.RUBY_ORE.get(),

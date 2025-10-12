@@ -22,6 +22,10 @@
   "block.minecraft_2.red_spruce_door": "Red Spruce Door",
   "block.minecraft_2.red_spruce_button": "Red Spruce Button",
   "block.minecraft_2.red_spruce_fence": "Red Spruce Fence",
+  "block.minecraft_2.red_spruce_fence_gate": "Red Spruce Fence Gate",
+  "block.minecraft_2.red_spruce_trapdoor": "Red Spruce Trapdoor",
+  "block.minecraft_2.red_spruce_pressure_plate": "Red Spruce Pressure Plate",
+  "block.minecraft_2.ruby_lamp": "Ruby Lamp",
 
   "creativetab.minecraft_2.new_blocks": "New Blocks",
   "creativetab.minecraft_2.new_items": "New Items",

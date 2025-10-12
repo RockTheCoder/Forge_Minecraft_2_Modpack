@@ -51,6 +51,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.RED_SPRUCE_DOOR.get());
                         output.accept(ModBlocks.RED_SPRUCE_BUTTON.get());
                         output.accept(ModBlocks.RED_SPRUCE_FENCE.get());
+                        output.accept(ModBlocks.RED_SPRUCE_FENCE_GATE.get());
+                        output.accept(ModBlocks.RED_SPRUCE_TRAPDOOR.get());
+                        output.accept(ModBlocks.RED_SPRUCE_PRESSURE_PLATE.get());
+                        output.accept(ModBlocks.RUBY_LAMP.get());
                     })
 
                     .build());
