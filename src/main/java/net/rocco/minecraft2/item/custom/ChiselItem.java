@@ -17,6 +17,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.rocco.minecraft2.block.ModBlocks;
+import net.rocco.minecraft2.component.ModDataComponentTypes;
 
 import java.util.List;
 import java.util.Map;
@@ -46,7 +47,11 @@ public ChiselItem(Properties pProperties){
 
                 pContext.getItemInHand().hurtAndBreak(1, ((ServerLevel) level), ((ServerPlayer) pContext.getPlayer()),
                         item -> pContext.getPlayer().onEquippedItemBroken(item, EquipmentSlot.MAINHAND));
+
                 level.playSound(null,pContext.getClickedPos(), SoundEvents.GRINDSTONE_USE, SoundSource.BLOCKS);
+
+                pContext.getItemInHand().set(ModDataComponentTypes.COORDINATES.get(), pContext.getClickedPos());
+
             }
         }
 
@@ -59,6 +64,9 @@ public ChiselItem(Properties pProperties){
             pTooltipComponents.add(Component.translatable("tooltip.minecraft_2.chisel_shift_down"));
         } else {
             pTooltipComponents.add(Component.translatable("tooltip.minecraft_2.chisel"));
+        }
+        if(pStack.get(ModDataComponentTypes.COORDINATES.get()) != null){
+            pTooltipComponents.add(Component.literal("Last Block Changed at " + pStack.get(ModDataComponentTypes.COORDINATES.get())));
         }
         super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
     }

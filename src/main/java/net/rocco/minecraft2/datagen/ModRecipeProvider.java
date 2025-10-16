@@ -5,6 +5,7 @@ import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 import net.rocco.minecraft2.block.ModBlocks;
 import net.rocco.minecraft2.item.ModItems;
@@ -64,6 +65,13 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         fenceGateBuilder(ModBlocks.RED_SPRUCE_FENCE_GATE.get(), Ingredient.of(ModBlocks.RED_SPRUCE_PLANK.get())).group("red_spruce_plank")
                 .unlockedBy(getHasName(ModBlocks.RED_SPRUCE_PLANK.get()), has(ModBlocks.RED_SPRUCE_PLANK.get())).save(pRecipeOutput);
         pressurePlate(pRecipeOutput, ModBlocks.RED_SPRUCE_PRESSURE_PLATE.get(), ModBlocks.RED_SPRUCE_PLANK.get());
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.RUBY_LAMP.get())
+                .pattern(" A ")
+                .pattern("ABA")
+                .pattern(" A ")
+                .define('A', ModItems.RUBY.get())
+                .define('B', Blocks.GLOWSTONE)
+                .unlockedBy(getHasName(ModItems.RUBY.get()), has(ModItems.RUBY.get())).save(pRecipeOutput);
 
     }
 }

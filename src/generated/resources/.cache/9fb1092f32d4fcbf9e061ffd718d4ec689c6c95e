@@ -1,4 +1,4 @@
-// 1.21	2025-10-11T14:03:32.9062893	Recipes
+// 1.21	2025-10-14T08:58:01.3628488	Recipes
 c9043a6c71771a0aae7e68b46a1b99bff0f32edd data/minecraft_2/advancement/recipes/building_blocks/red_spruce_slab.json
 f8ffe5e3824ad97f4beb3b07d356bd2f96cbb821 data/minecraft_2/advancement/recipes/building_blocks/red_spruce_stairs.json
 da913a68d4339d52979aca778b94e69c4a99c25c data/minecraft_2/advancement/recipes/decorations/red_spruce_fence.json
@@ -6,6 +6,7 @@ e0387ef3f3960297a0a6dbdb89e62b995455f4a6 data/minecraft_2/advancement/recipes/mi
 0273f8bb9b62ab0fffb7fea589aada54864920ea data/minecraft_2/advancement/recipes/misc/red_spruce_plank.json
 c11efc2168192924b02978467575a07ca31c20ae data/minecraft_2/advancement/recipes/misc/ruby.json
 a30ed93d5e3c7c20a719443d9eff61f7c8da2b80 data/minecraft_2/advancement/recipes/misc/ruby_block.json
+81e2642fa0cdcd505672ad89968b257a44ecbf2c data/minecraft_2/advancement/recipes/misc/ruby_lamp.json
 cd89b1d1b9f276e3d4c4de03c001dfd25a2ddf4b data/minecraft_2/advancement/recipes/misc/sapphire.json
 c1a7a68be2f0c2b956348d791ede012603893d43 data/minecraft_2/advancement/recipes/misc/sapphire_block.json
 86cfb0a08aa8dc81b267845060129aac9de739d1 data/minecraft_2/advancement/recipes/redstone/red_spruce_button.json
@@ -25,5 +26,6 @@ e851121876984e79264c60e329e1d8a3ec6e6bc3 data/minecraft_2/recipe/red_spruce_plan
 eb4ff271e49a7ab9461fb2e3471105b2657e95a8 data/minecraft_2/recipe/red_spruce_trapdoor.json
 405d81af5c15eb8ba5220a6e260312a9975dbfd2 data/minecraft_2/recipe/ruby.json
 054404946473351c02491b7382523752e1009835 data/minecraft_2/recipe/ruby_block.json
+f4e10d6be8152e6318184eaf7d3765bdf4aed05a data/minecraft_2/recipe/ruby_lamp.json
 49b36b1757707a1561908de36679e5893985cee8 data/minecraft_2/recipe/sapphire.json
 cd3f24ed45c2d8bea91e0c30cc92ded616477306 data/minecraft_2/recipe/sapphire_block.json

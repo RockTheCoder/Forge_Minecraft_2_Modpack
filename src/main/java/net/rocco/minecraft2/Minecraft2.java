@@ -15,6 +15,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.rocco.minecraft2.block.ModBlocks;
+import net.rocco.minecraft2.component.ModDataComponentTypes;
 import net.rocco.minecraft2.item.ModCreativeModeTabs;
 import net.rocco.minecraft2.item.ModFoodProperties;
 import net.rocco.minecraft2.item.ModItems;
@@ -39,7 +40,7 @@ public class Minecraft2 {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
-
+        ModDataComponentTypes.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

@@ -27,6 +27,7 @@ public class ModItemModeProvider extends ItemModelProvider {
         fenceItem(ModBlocks.RED_SPRUCE_FENCE, ModBlocks.RED_SPRUCE_PLANK);
         basicItem(ModItems.RUBY.get());
         basicItem(ModItems.ROSE_QUARTZ.get());
+
         buttonItem(ModBlocks.RED_SPRUCE_BUTTON, ModBlocks.RED_SPRUCE_PLANK);
         simpleBlockItem(ModBlocks.RED_SPRUCE_DOOR);
     }

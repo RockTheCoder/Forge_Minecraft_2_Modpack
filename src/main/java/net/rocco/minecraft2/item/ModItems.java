@@ -20,6 +20,7 @@ public class ModItems {
     public static final RegistryObject<Item> Sapphire = ITEMS.register("sapphire",
             () -> new Item(new Item.Properties()));
 
+
     public static final RegistryObject<Item> ROSE_QUARTZ = ITEMS.register("rose_quartz",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> CHISEL = ITEMS.register("chisel",
