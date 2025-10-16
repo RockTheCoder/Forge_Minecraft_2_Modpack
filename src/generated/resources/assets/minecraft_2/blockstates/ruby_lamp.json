@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "clicked=false": {
+      "model": "minecraft_2:block/ruby_lamp_off"
+    },
+    "clicked=true": {
+      "model": "minecraft_2:block/ruby_lamp_on"
+    }
+  }
+}
