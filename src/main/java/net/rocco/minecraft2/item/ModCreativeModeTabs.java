@@ -26,6 +26,11 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.CHISEL.get());
                         output.accept(ModItems.RED_ONION.get());
                         output.accept(ModItems.OIL.get());
+                        output.accept(ModItems.RUBY_SWORD.get());
+                        output.accept(ModItems.RUBY_HOE.get());
+                        output.accept(ModItems.RUBY_SHOVEL.get());
+                        output.accept(ModItems.RUBY_PICKAXE.get());
+                        output.accept(ModItems.RUBY_AXE.get());
                     })
 
                     .build());

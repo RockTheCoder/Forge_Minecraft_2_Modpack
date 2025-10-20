@@ -5,7 +5,11 @@
   "item.minecraft_2.chisel": "Chisel",
   "item.minecraft_2.red_onion": "Red Onion",
   "item.minecraft_2.oil": "Bucket of Oil",
-  "item.minecraft_2.protection": "Protection",
+  "item.minecraft_2.ruby_sword": "Ruby Sword",
+  "item.minecraft_2.ruby_pickaxe": "Ruby Pickaxe",
+  "item.minecraft_2.ruby_axe": "Ruby Axe",
+  "item.minecraft_2.ruby_shovel": "Ruby Shovel",
+  "item.minecraft_2.ruby_hoe": "Ruby Hoe",
 
   "block.minecraft_2.ruby_ore": "Ruby Ore",
   "block.minecraft_2.red_spruce_stairs": "Red Spruce Stairs",

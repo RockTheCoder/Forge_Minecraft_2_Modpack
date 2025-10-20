@@ -1,6 +1,8 @@
-// 1.21	2025-10-11T14:03:32.903785	Tags for minecraft:block mod id minecraft_2
+// 1.21	2025-10-20T09:34:33.4137192	Tags for minecraft:block mod id minecraft_2
 2a4b07aa536ad313e5cabb2a054410c6d60abdc0 data/minecraft/tags/block/fence_gates.json
 450c49efaf94033407e06e7dd76de09c8d65eae3 data/minecraft/tags/block/mineable/pickaxe.json
 2ea8f2f0aba42b3aee5a5054d419ec575cc3c27d data/minecraft/tags/block/needs_diamond_tool.json
 6679e8a70fb0ec7dd85811a6676f0ee90cf68d3e data/minecraft/tags/block/needs_iron_tool.json
 00e9eec99bef23d5d8a2e41441cc7dafc1cfdf04 data/minecraft/tags/block/wooden_fences.json
+284968da1ed6862766b773f07144deea8caa8a86 data/minecraft_2/tags/block/incorrect_for_ruby_tool.json
+2e6df249a4f656ecb9ab1e2314b61fb4dcb627f8 data/minecraft_2/tags/block/needs_ruby_tool.json

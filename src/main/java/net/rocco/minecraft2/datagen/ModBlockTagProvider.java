@@ -3,10 +3,12 @@ package net.rocco.minecraft2.datagen;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.rocco.minecraft2.Minecraft2;
 import net.rocco.minecraft2.block.ModBlocks;
+import net.rocco.minecraft2.util.ModTags;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.concurrent.CompletableFuture;
@@ -36,5 +38,13 @@ public class ModBlockTagProvider extends BlockTagsProvider {
 
         tag(BlockTags.WOODEN_FENCES).add(ModBlocks.RED_SPRUCE_FENCE.get());
         tag(BlockTags.FENCE_GATES).add(ModBlocks.RED_SPRUCE_FENCE_GATE.get());
+        tag(ModTags.Blocks.NEEDS_RUBY_TOOL)
+                .add(ModBlocks.RUBY_ORE.get())
+                .add(Blocks.OBSIDIAN)
+                .addTag(BlockTags.NEEDS_IRON_TOOL);
+
+        tag(ModTags.Blocks.INCORRECT_FOR_RUBY_TOOL)
+                .addTag(BlockTags.INCORRECT_FOR_IRON_TOOL)
+                .remove(ModTags.Blocks.NEEDS_RUBY_TOOL);
     }
 }

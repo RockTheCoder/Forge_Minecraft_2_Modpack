@@ -1,4 +1,4 @@
-// 1.21	2025-10-16T08:49:05.1166952	Item Models: minecraft_2
+// 1.21	2025-10-20T09:34:33.4211176	Item Models: minecraft_2
 1d53178b14f3988f8c24aeb2750e5cee1c182dc0 assets/minecraft_2/models/item/chisel.json
 81db26daf816b6fb924fb5218a4310a142a7d957 assets/minecraft_2/models/item/oil.json
 568b1d0b65d92049204ee50d6c5d3c6f53093c8c assets/minecraft_2/models/item/red_onion.json
@@ -7,4 +7,9 @@ d9f2624c582feb54e128e588f54670baee438540 assets/minecraft_2/models/item/red_spru
 4d4bbd71adcd947bddf54d51f9020ee641b96a0f assets/minecraft_2/models/item/red_spruce_fence.json
 211f421c9858e83bc63517cc7912b3b211e4b013 assets/minecraft_2/models/item/rose_quartz.json
 97781cedad2c2a982d52e6d565145299a23a0a0f assets/minecraft_2/models/item/ruby.json
+44592b8489776282333ef1a267941a537bc6148f assets/minecraft_2/models/item/ruby_axe.json
+a9cd49194fb3ea20888d4290fa55b99cad0bea7f assets/minecraft_2/models/item/ruby_hoe.json
+db35da2ec8f174d825003f19f5a65cb675331adf assets/minecraft_2/models/item/ruby_pickaxe.json
+e493c9aea46b82a92270e4d7e996b1f78f33685e assets/minecraft_2/models/item/ruby_shovel.json
+b8d2e4d40117de1b9f67a5ef4da84bcf17263704 assets/minecraft_2/models/item/ruby_sword.json
 986b52917acc3705df2ea91375bfee9d20a2bd2f assets/minecraft_2/models/item/sapphire.json

@@ -2,6 +2,7 @@ package net.rocco.minecraft2.datagen;
 
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.client.model.generators.ItemModelBuilder;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
@@ -30,6 +31,17 @@ public class ModItemModeProvider extends ItemModelProvider {
 
         buttonItem(ModBlocks.RED_SPRUCE_BUTTON, ModBlocks.RED_SPRUCE_PLANK);
         simpleBlockItem(ModBlocks.RED_SPRUCE_DOOR);
+
+        handheldItem(ModItems.RUBY_SWORD);
+        handheldItem(ModItems.RUBY_PICKAXE);
+        handheldItem(ModItems.RUBY_HOE);
+        handheldItem(ModItems.RUBY_AXE);
+        handheldItem(ModItems.RUBY_SHOVEL);
+    }
+    private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
+        return withExistingParent(item.getId().getPath(),
+                ResourceLocation.parse("item/handheld")).texture("layer0",
+                ResourceLocation.fromNamespaceAndPath(Minecraft2.MOD_ID,"item/" + item.getId().getPath()));
     }
 
     private ItemModelBuilder simpleBlockItem(RegistryObject<? extends Block> item) {
